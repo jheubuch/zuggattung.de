@@ -14,11 +14,6 @@
     "countries": ["DEU", "DDR"]
   },
   {
-    "code": "W",
-    "description": "Waggon",
-    "regex": "W[GLR]"
-  },
-  {
     "code": "Post",
     "description": "Postwagen",
     "countries": ["DEU", "AUT"],
@@ -26,7 +21,7 @@
   },
   {
     "code": "D",
-    "description": "Gepäckraum",
+    "description": "Gepäckwagen",
     "regex": "D[^AB]"
   },
   {
@@ -37,7 +32,7 @@
     "code": "DD",
     "description": "Dosto-Gepäckwagen",
     "countries": ["DDR"],
-    "year": [0, 1994]
+    "time": [0, 1994]
   },
   {
     "code": "F",
@@ -47,7 +42,8 @@
   {
     "code": "F",
     "description": "Postwagen",
-    "countries": ["AUT"]
+    "countries": ["AUT"],
+    "time": [0, 1968]
   },
   {
     "code": "FR",
@@ -55,12 +51,11 @@
     "countries": ["NOR"]
   },
   {
-    "code": "G",
-    "description": "Gesellschaftswagen",
-    "regex": "WG"
+    "code": "WG",
+    "description": "Gesellschaftswagen"
   },
   {
-    "code": "L",
+    "code": "WL",
     "description": "Schlafwagen",
     "regex": "WL[AB]"
   },
@@ -70,14 +65,14 @@
     "regex": "[WAB]R"
   },
   {
-    "code": "S",
-    "description": "Sonderabteil",
-    "regex": "[WAB]S"
+    "code": "R",
+    "description": "Speisewagen",
+    "countries": ["SWE"]
   },
   {
     "code": "S",
     "description": "Salonwagen",
-    "regex": "^S"
+    "regex": "S[^R]"
   },
   {
     "code": "Salon",

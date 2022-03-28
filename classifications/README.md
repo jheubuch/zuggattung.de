@@ -1,0 +1,14 @@
+# Data
+This directory contains basic data about the different coach classes.
+Each entry has the following possible fields:  
+| Property           | Description                                                                               | Possible values                              | Example                                                                                                                                                           |
+|--------------------|-------------------------------------------------------------------------------------------|----------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `code`             | The short form of the main/sub class                                                      | String                                       | `"A"`, `"Post"`                                                                                                                                                   |
+| `regex`            | (Optional) a regex that indicates the presence of the given class                         | Regex-String                                 | `"D[AB]"`                                                                                                                                                         |
+| `description`      | A short description of the class                                                          | String                                       | `"1. Klasse"`                                                                                                                                                     |
+| `description_long` | (Optional) a longer, more detailed description                                            | String                                       | `"Nahverkehrswagen mit >24,5 m Länge, 2 Mitteleinstiegen, je 3 fiktiven ABteilen in den Endräumen und 5 fiktiven Abteilen im Mittelteil zwischen den Einstiegen"` |
+| `countries`        | (Optional) a list of the countries in which these classes exist(ed). Should be upper case | List of ISO-3166 strings                     | `["DEU", "DDR"]`                                                                                                                                                  |
+| `time`             | The time in which coaches with these classes were active (0 means open ended)             | Tuple/List of numbers in [0; <current year>] | `[2000, 0]`, `[0, 1992]`                                                                                                                                          |
+
+# Sources
+The data here is collected from https://de.wikipedia.org/wiki/UIC-Bauart-Bezeichnungssystem_f%C3%BCr_Reisezugwagen.

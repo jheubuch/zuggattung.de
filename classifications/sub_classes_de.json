@@ -1,25 +1,12 @@
 [
   {
     "code": "a",
-    "description": "ausgerüstet für technikbasiertes Abfertigungsverfahren",
-    "countries": ["DEU", "DDR"]
-  },
-  {
-    "code": "b",
-    "description": "Wendezug-Befehlsleitung",
-    "time": [0, 1992],
+    "description": "Ausgerüstet für technikbasiertes Abfertigungsverfahren",
     "countries": ["DEU", "DDR"]
   },
   {
     "code": "b",
     "description": "Behindertengerechte Ausstattung",
-    "time": [1992, 0],
-    "countries": ["DEU", "DDR"]
-  },
-  {
-    "code": "bü",
-    "description": "Buffet",
-    "time": [0, 1992],
     "countries": ["DEU", "DDR"]
   },
   {
@@ -34,39 +21,47 @@
   },
   {
     "code": "e",
-    "description": "Elektrische Heizung aus der Zugsammelschiene",
+    "description": "Elektrische Heizung",
+    "time": [0, 1986],
+    "countries": ["DEU", "DDR"]
+  },
+  {
+    "code": "ee",
+    "description": "Energieversorgung aus der Zugsammelschiene",
     "time": [0, 1992],
     "countries": ["DEU", "DDR"]
   },
   {
-    "code": "(e)",
-    "description": "Zugsammelschiene als Durchgangsleitung, selbst jedoch ohne elektrische Heizung",
+    "code": "f",
+    "description": "Steuerwagen mit 36-poliger Steuerleitung oder zeitmultiplexer Wendezugsteuerung",
     "countries": ["DEU", "DDR"]
   },
   {
     "code": "f",
-    "description": "Steuerabteil für Wendezüge",
-    "countries": ["DEU", "DDR"]
+    "description": "Behelfssteuerwagen für Wendezüge",
+    "time": [0, 1986],
+    "countries": ["DDR"]
   },
   {
     "code": "g",
     "description": "Gummiwülste",
+    "time": [0, 2000],
     "countries": ["DEU", "DDR"]
   },
   {
     "code": "h",
-    "description": "Großraum mit Mittelgang",
-    "countries": ["DDR"]
+    "description": "Umgebauter DR-Nahverkehrswagen - Großraum mit Gummiwulst und Mittelgang",
+    "countries": ["DEU", "DDR"]
   },
   {
     "code": "h",
-    "description": "Energieversorgung (Batterieladung) wahlweise über Ladegerät oder Achsgeneratoren möglich",
+    "description": "Stromversorgung via Zugsammelschiene oder Achsengeneratoren",
     "countries": ["DEU"]
   },
   {
     "code": "i",
     "description": "Wagen mit offenen Übergängen",
-    "time": [0, 1979],
+    "time": [0, 1992],
     "countries": ["DEU", "DDR"]
   },
   {
@@ -77,19 +72,12 @@
   },
   {
     "code": "k",
-    "description": "Kiosk",
-    "countries": ["DEU", "DDR"]
-  },
-  {
-    "code": "l",
-    "description": "Großraum mit Mitteleinstieg und Abteilen",
-    "description_long": "Großraumwagen mit Mitteleinstieg und 11 B-Abteilen im Byl oder 5 B- und 5 A-Abteilen im AByl",
+    "description": "Kiosk, Bistro, Automaten, ...",
     "countries": ["DEU", "DDR"]
   },
   {
     "code": "m",
-    "description": ">=26,4m Abteilwagen",
-    "description_long": "Mindestens 26,4 m langer Wagen mit 10 A-Abteilen im Am, 5 A- und 6 B-Abteilen im ABm, 12 B-Abteilen im Bm oder 6 B-ABteilen im BDm",
+    "description": ">24,5m Abteilwagen",
     "countries": ["DEU", "DDR"]
   },
   {
@@ -100,13 +88,14 @@
   },
   {
     "code": "n",
-    "description": "Nahverkehr, >=26,4m",
-    "description_long": "Nahverkehrswagen mit 26,4 m Länge, Mittelgang in der 2. Klasse, 2 Mitteleinstiegen und je 3 fiktive Abteile in den Endräumen und 6 fiktive Abteile im Mittelteil, in der ersten Klasse 5 (fiktive) Abteile im Mittelteil zwischen den Einstiegen, seit 1992 außerdem mit 36-poliger ex-DB-Wendezugsteuerleitung",
+    "description": "Nahverkehr, >24,5m",
+    "description_long": "Nahverkehrswagen mit >24,5m Länge, Großraum in der 2., Mittel- oder Seitengang in der 1. Klasse, zwei Mitteleinstiege, geeignet für Wendezugbetrieb (36-polige Steuerleitung)",
     "countries": ["DEU", "DDR"]
   },
   {
     "code": "o",
     "description": "Unklimatisierter Wagen mit weniger Abteilen",
+    "regex": "m.*o|o.*m",
     "countries": ["DEU", "DDR"]
   },
   {
@@ -122,7 +111,7 @@
   },
   {
     "code": "q",
-    "description": "Steuerabteil für Wendezugbetrieb, 34-polige ex-DR-Steuerleitung",
+    "description": "Steuerwagen für Wendezugbetrieb, 34-polige Steuerleitung",
     "countries": ["DEU", "DDR"]
   },
   {
@@ -160,30 +149,30 @@
   },
   {
     "code": "v",
-    "description": "Klimatisierter Abteilwagen mit weniger Abteilen",
+    "description": "Abteilwagen mit weniger Abteilen",
     "countries": ["DEU", "DDR"]
   },
   {
     "code": "w",
-    "description": "Versuchsfahrzeug in Leichtbauweise",
-    "time": [0, 1977],
+    "description": "Abteilwagen mit deutlich weniger Abteilen",
+    "time": [2012, 0],
     "countries": ["DEU", "DDR"]
   },
   {
     "code": "x",
     "description": "S-Bahn x-Wagen",
-    "description_long": "S-Bahn-Wagen mit 24,5 m Länge, 3 Mitteleinstiegen und Hochleitungsbremse",
+    "description_long": "S-Bahn-Wagen mit Großraum mit Mittelgang, Zugsammelschiene, Mitteleinstiegen, Hochleitungsbremse",
     "countries": ["DEU", "DDR"]
   },
   {
     "code": "y",
     "description": "Nahverkehr, y-Wagen",
-    "description_long": "Nahverkehrswagen mit 26,4 m Länge, 2 Mitteleinstiegen, je 3 fiktiven ABteilen in den Endräumen und 5 fiktiven Abteilen im Mittelteil zwischen den Einstiegen",
+    "description_long": "Nahverkehrswagen mit >24,5 m Länge, Großraum in der 2. Klasse, zwei Mitteleinstiege, 34-polige Steuerleitung",
     "countries": ["DEU", "DDR"]
   },
   {
     "code": "z",
-    "description": "Zentrale Energieversorgung aus der Zugsammelschiene",
+    "description": "Energieversorgung aus der Zugsammelschiene",
     "countries": ["DEU", "DDR"]
   }
 ]
