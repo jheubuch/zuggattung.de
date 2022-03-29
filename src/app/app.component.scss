@@ -1,0 +1,15 @@
+@use "../variables";
+
+#title {
+  width: 100%;
+  font-size: 32pt;
+  text-align: center;
+  text-shadow: 2px 2px 8px;
+}
+
+#description {
+  width: calc(100% - 32px);
+  padding: 16px;
+  font-size: 24pt;
+  text-align: center;
+}
